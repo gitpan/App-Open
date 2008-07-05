@@ -1,0 +1,5 @@
+#!/usr/bin/env perl
+
+print "Exiting with an error code of 1\n";
+
+exit(1);
