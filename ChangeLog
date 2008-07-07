@@ -1,0 +1,41 @@
+v0.0.2:
+
+commit 0ed1839e409f44275c35b5a600643df71a7b2293
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Sun Jul 6 19:31:25 2008 -0700
+
+     * Added ChangeLog to repository
+     * Fixed Build.PL script/required libs definitions and added Mail::Cap and MIME::Types to recommended modules
+     * Bumped version to 0.0.2 (will be tagged)
+
+commit b80f0375eac75d739fa6d3dbfd282b09d097a175
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Sun Jul 6 19:13:33 2008 -0700
+
+     * Fixed MANIFEST
+
+commit a6bf5b8df095765c6a342256f92ddb2c5fd32625
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Sun Jul 6 19:09:51 2008 -0700
+
+     * Added accidentally omitted COPYING file
+
+commit 7a6eb916812eee9ef50538afca2800c99403e311
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Sun Jul 6 19:08:01 2008 -0700
+
+     * Fixed Makefile.PL
+
+commit 8cafa1e7e22ad46685f610a733ce037cff9c3874
+Merge: 3d98176... 6f62f1e...
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Fri Jul 4 17:05:59 2008 -0700
+
+    Merge branch 'master' of ssh://hollensbe.org/git/open
+
+commit 6f62f1e7486354ae1d8af1c51a52278a35abdafd
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Fri Jul 4 17:01:40 2008 -0700
+
+     * Building out the distribution files
+     * Fixed license entry in Build.PL

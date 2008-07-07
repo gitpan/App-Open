@@ -1,18 +1,33 @@
 ---
 name: App-Open
-version: 0.0.1
+version: 0.0.2
 author:
   - 'Erik Hollensbe <erik@hollensbe.org>'
 abstract: Library to drive the 'openit' command line tool
 license: bsd
 resources:
   license: http://www.opensource.org/licenses/bsd-license.php
-build_requires:
+requires:
   Getopt::Long: 0
   Test::Exception: 0
   Test::More: 0
   YAML::Syck: 0
   version: 0
+recommends:
+  MIME::Types: 0
+  Mail::Cap: 0
+provides:
+  App::Open:
+    file: lib/App/Open.pm
+    version: 0.0.2
+  App::Open::Backend::Dummy:
+    file: lib/App/Open/Backend/Dummy.pm
+  App::Open::Backend::MailCap:
+    file: lib/App/Open/Backend/MailCap.pm
+  App::Open::Backend::YAML:
+    file: lib/App/Open/Backend/YAML.pm
+  App::Open::Config:
+    file: lib/App/Open/Config.pm
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

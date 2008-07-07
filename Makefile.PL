@@ -6,7 +6,7 @@ WriteMakefile
           'INSTALLDIRS' => 'site',
           'NAME' => 'App::Open',
           'EXE_FILES' => [
-                           '/home/erikh/git/open/bin/openit'
+                           'bin/openit'
                          ],
           'VERSION_FROM' => 'lib/App/Open.pm',
           'PREREQ_PM' => {

@@ -9,12 +9,17 @@ my $builder = Module::Build->new(
     license             => 'bsd',
     dist_author         => 'Erik Hollensbe <erik@hollensbe.org>',
     dist_version        => $App::Open::VERSION,
-    build_requires => {
+    script_files => [qw(bin/openit)],
+    requires => {
         'Test::More' => 0,
         'Test::Exception' => 0,
         'YAML::Syck' => 0,
         'Getopt::Long' => 0,
         'version' => 0,
+    },
+    recommends => {
+        'Mail::Cap' => 0,
+        'MIME::Types' => 0,
     },
     add_to_cleanup      => [ 'App-Open-*' ],
     create_makefile_pl => 'traditional',

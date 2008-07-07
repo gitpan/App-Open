@@ -19,8 +19,8 @@ package App::Open;
 use strict;
 use warnings;
 
-use version qw(qv);
-our $VERSION = qv("0.0.1");
+use version;
+our $VERSION = version::qv("0.0.2");
 
 use File::Basename qw(basename);
 use URI;

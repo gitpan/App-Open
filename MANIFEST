@@ -1,7 +1,9 @@
 bin/openit
 Build.PL
+ChangeLog
 contrib/sample-mimeyaml
 contrib/sample-openrc
+COPYING
 lib/App/Open.pm
 lib/App/Open/Backend.pm
 lib/App/Open/Backend/Dummy.pm
