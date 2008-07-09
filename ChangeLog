@@ -1,3 +1,19 @@
+v0.0.3:
+
+commit 5e061b35657221290ed62f41ef73f82cc4aa3093
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Wed Jul 9 03:17:03 2008 -0700
+
+     * Forgot an important documentation fix
+
+commit 2efc7f1c956e02334776605c863caf142e89b250
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Wed Jul 9 03:12:29 2008 -0700
+
+     * Fixed ::Backend::MailCap tests
+     * More Build.PL dependency fixes
+     * Tagged 0.0.3
+
 v0.0.2:
 
 commit 0ed1839e409f44275c35b5a600643df71a7b2293

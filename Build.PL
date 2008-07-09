@@ -10,10 +10,13 @@ my $builder = Module::Build->new(
     dist_author         => 'Erik Hollensbe <erik@hollensbe.org>',
     dist_version        => $App::Open::VERSION,
     script_files => [qw(bin/openit)],
-    requires => {
+    build_requires => {
         'Test::More' => 0,
         'Test::Exception' => 0,
+    },
+    requires => {
         'YAML::Syck' => 0,
+        'URI' => 0,
         'Getopt::Long' => 0,
         'version' => 0,
     },

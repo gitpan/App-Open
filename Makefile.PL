@@ -12,6 +12,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'Getopt::Long' => 0,
+                           'URI' => 0,
                            'Test::Exception' => 0,
                            'version' => 0,
                            'YAML::Syck' => 0

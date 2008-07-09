@@ -40,8 +40,8 @@ The file format is fairly simple:
 
  ----
  ".gz": gunzip
- "http:": firefox -newtab '%s'
- "tar.gz": tar vxzf '%s'
+ "http:": firefox -newtab %s
+ "tar.gz": tar vxzf %s
 
 There are two types of keys: extensions and schemes. Extensions are your
 standard file extensions, and omit any leading punctuation. Schemes are the

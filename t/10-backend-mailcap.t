@@ -62,6 +62,6 @@ is($tmp->mailcap_take, "FIRST");
 # XXX mailcap does not support urls
 ok(!$tmp->lookup_url("http"));
 
-is( $tmp->lookup_file("gz"), "ark -caption \"Archiver\" %s" );
-is( $tmp->lookup_file(".gz"), "ark -caption \"Archiver\" %s" );
+is( $tmp->lookup_file("gz"), 'gunzip %s' );
+is( $tmp->lookup_file(".gz"), 'gunzip %s' );
 ok( !$tmp->lookup_file(".foo") );
