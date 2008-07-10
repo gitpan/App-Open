@@ -20,7 +20,7 @@ use strict;
 use warnings;
 
 use version;
-our $VERSION = version::qv("0.0.3");
+our $VERSION = version::qv("0.0.4");
 
 use File::Basename qw(basename);
 use URI;

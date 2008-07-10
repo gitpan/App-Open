@@ -44,4 +44,4 @@ t/resource/dummy_files/bar.rpm.spec.gz
 t/resource/dummy_files/foo.tar.gz
 t/resource/dummy_files/test.exit
 t/resource/dummy_files/this.is.a.lot.of.fucking.extensions
-t/resource/helpers/exit_1
+t/resource/helpers/exit_1.tmpl

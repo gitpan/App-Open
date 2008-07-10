@@ -1,3 +1,31 @@
+v0.0.4:
+
+commit cc3e401c15918117693b93bc6df06599333570ba
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Thu Jul 10 01:07:30 2008 -0700
+
+     * Bumped version, this revision tagged 0.0.4
+
+commit 75b42899b8d8627848d50eeb45a70149430c03b3
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Thu Jul 10 01:05:48 2008 -0700
+
+     * Fixed a bug in the YAML backend documentation.
+
+commit 88c65baa161204dccd7b9238912ba01e9dd5482b
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Thu Jul 10 00:54:01 2008 -0700
+
+     * Fixed an ugly bug in the 50-openbin test, the exit_1 helper script is now templated with the perl in $^X instead of assuming the one in the path will work (boy do I feel dumb).
+     * Updated MANIFEST and MANIFEST.SKIP to reflect package changes
+     * Some leftovers from the last ./Build dist that we want to keep
+
+commit a79b70e8081203e789dc25ffb6c7bf7260d6d22c
+Author: Erik Hollensbe <erik@hollensbe.org>
+Date:   Wed Jul 9 03:19:41 2008 -0700
+
+     * Updated ChangeLog
+
 v0.0.3:
 
 commit 5e061b35657221290ed62f41ef73f82cc4aa3093

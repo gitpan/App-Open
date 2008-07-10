@@ -39,7 +39,7 @@ schemes to programs used to launch them.
 The file format is fairly simple:
 
  ----
- ".gz": gunzip
+ "gz": gunzip
  "http:": firefox -newtab %s
  "tar.gz": tar vxzf %s
 

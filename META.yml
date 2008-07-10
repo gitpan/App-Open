@@ -1,6 +1,6 @@
 ---
 name: App-Open
-version: 0.0.3
+version: 0.0.4
 author:
   - 'Erik Hollensbe <erik@hollensbe.org>'
 abstract: Library to drive the 'openit' command line tool
@@ -21,7 +21,7 @@ recommends:
 provides:
   App::Open:
     file: lib/App/Open.pm
-    version: 0.0.3
+    version: 0.0.4
   App::Open::Backend::Dummy:
     file: lib/App/Open/Backend/Dummy.pm
   App::Open::Backend::MailCap:

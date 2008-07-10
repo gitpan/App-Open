@@ -29,6 +29,19 @@ BEGIN {
     require Test::More;
     if (WEXITSTATUS(system($^X, "-e", "exit 1"))) {
         Test::More->import('no_plan');
+        Test::More::diag("Generating exit_1 test script in t/resource/helpers...");
+        my ($in, $out);
+        open($in, 't/resource/helpers/exit_1.tmpl') && do {
+            open($out, '>', 't/resource/helpers/exit_1') && do {
+                local $/ = undef;
+                my $contents = <$in>;
+                $contents =~ s/^\@PERL\@/#!$^X/sg;
+                print { $out } $contents;
+                close($out);
+                chmod(0700, 't/resource/helpers/exit_1');
+            };
+            close($in);
+        };
     } else {
         Test::More->import('skip_all' => "Couldn't execute this perl!");
     }
